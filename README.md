@@ -1,6 +1,6 @@
 # AI Health Records Assistant
 
-**Live: TBD — will be added after Vercel deployment**
+**Live: https://ai-health-records-assistant.vercel.app/**
 
 Understand your health documents in plain English. Upload or paste a
 discharge summary, lab report, or insurance letter and get a plain-English
