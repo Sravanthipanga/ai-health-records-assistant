@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import { HeartPulse, ShieldAlert } from "lucide-react";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             or a large language model. Always discuss your health with your clinician.
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
